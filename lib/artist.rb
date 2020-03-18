@@ -19,9 +19,10 @@ class Artist
     add_song(Song.new(song_name))
   end
 
-binding.pry
   def self.song_count
   end
 
 
 end
+
+#binding.pry
