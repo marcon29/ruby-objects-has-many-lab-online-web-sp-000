@@ -1,5 +1,5 @@
-class Song
-  attr_accessor :name, :artist
+class Post
+  attr_accessor :name, :author
 
   @@all = []
 
@@ -12,7 +12,7 @@ class Song
     @@all
   end
 
-  def artist_name
-    self.artist.name unless !self.artist
+  def author_name
+    self.author.name unless !self.author
   end
 end
